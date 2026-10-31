@@ -1,0 +1,31 @@
+{
+  "name": "biseccion-laboratorio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "format": "prettier --write src tests *.ts *.json *.html README.md",
+    "format:check": "prettier --check src tests *.ts *.json *.html README.md"
+  },
+  "dependencies": {
+    "mathjs": "14.8.1"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.11.0",
+    "@playwright/test": "1.56.1",
+    "@types/node": "24.10.1",
+    "prettier": "3.6.2",
+    "typescript": "5.9.3",
+    "vite": "7.2.2",
+    "vitest": "3.2.4"
+  },
+  "engines": {
+    "node": "^22.12.0 || >=24.0.0"
+  }
+}
