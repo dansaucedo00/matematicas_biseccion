@@ -97,3 +97,9 @@ scripts/serve.py           Arranque local de la versión compilada
 Incluye aplicación funcional, pruebas, instrucciones de ejecución y código fuente. El informe técnico en PDF, los datos de integrantes/docente y las diapositivas se preparan en la siguiente etapa. La impresión de resultados es un comprobante de cálculo, no el informe técnico final.
 
 Material de referencia: guía del trabajo práctico de Matemática IV y Unidad 2 (2025), sección bisección, páginas 13–19 del PDF proporcionado. La guía general propone `x^3-4*x-1` en [1,2], que no tiene cambio de signo; se incluye como caso de rechazo. [2,3] sí permite iniciar el método.
+
+## Paleta e interfaz
+
+El diseño usa **#3E4396** como color principal, blanco, texto oscuro y tonos lavanda. Los tokens están centralizados al inicio de `src/style.css`. El menú lateral, los botones, las tarjetas, los estados, las tablas, los gráficos y el favicon usan esta paleta. La curva de f(x) usa el color principal y el punto medio usa un violeta de apoyo con trazo diferenciado.
+
+Para actualizar una copia descargada anteriormente en Windows, consulta `entrega/ACTUALIZAR-FRONT.md`. La actualización visual no cambia dependencias ni el algoritmo.
